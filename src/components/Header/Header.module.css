@@ -1,0 +1,42 @@
+.headerContainer {
+  background-color: #609dde;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.schoolName {
+  margin: 0;
+  margin-right: 60px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navContainer {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.navbar {
+  flex-grow: 1;
+}
+
+.navLink {
+  color: black !important;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.navLink:hover {
+    transform: scale(1.2);
+    font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+    .schoolName {
+        font-size: 20px;
+    }
+}

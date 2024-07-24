@@ -1,0 +1,85 @@
+.academics {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.academicsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.sectionTitle {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.sectionContent {
+    text-align: center;
+}
+
+.gradeCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gradeCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.gradeTitle {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.sectionList {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sectionList li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .academicsContainer {
+        width: 90%;
+    }
+
+    .section, .gradeCard {
+        padding: 10px;
+    }
+
+    .gradeCard {
+        width: 100%;
+    }
+}

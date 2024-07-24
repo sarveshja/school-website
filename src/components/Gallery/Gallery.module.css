@@ -1,0 +1,69 @@
+.gallery {
+    padding: 20px;
+  }
+  
+  .filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filter button:hover {
+    background-color: #0056b3;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .card video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card p {
+    margin: 10px 0;
+  }
+  
+  /* Mobile View */
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 1 100%;
+    }
+  }
+  

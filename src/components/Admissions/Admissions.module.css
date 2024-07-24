@@ -1,0 +1,79 @@
+.admissions {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .admissionsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background-color: #fff;
+    width: 100%;
+  }
+  
+  .sectionTitle {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .sectionContent {
+    text-align: center;
+  }
+  
+  .datesList {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+  }
+  
+  .datesList li {
+    margin-bottom: 5px;
+  }
+  
+  .downloadOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .downloadLink {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .downloadLink:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Mobile View */
+  @media (max-width: 768px) {
+    .admissionsContainer {
+      width: 90%;
+    }
+  
+    .section {
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,35 @@
+.quickLinks {
+  text-align: center;
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.linkList li {
+  flex: 1 1 30%;
+  max-width: 200px;
+}
+
+.link {
+  display: block;
+  padding: 10px 20px;
+  border: 2px solid #003366;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: #003366;
+  font-size: 18px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.link:hover {
+  background-color: #003366;
+  color: white;
+}

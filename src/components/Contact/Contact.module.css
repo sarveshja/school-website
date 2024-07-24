@@ -1,0 +1,86 @@
+.contactUs {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background-color: #fff;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .cardContent {
+    text-align: center;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .contactForm label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .contactForm button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contactForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9em;
+  }
+  
+  .errorInput {
+    border-color: red;
+  }
+  
+  .mapContainer {
+    width: 100%;
+  }
+  
+  .mapContainer iframe {
+    border: 0;
+  }
+  
+  /* Mobile View */
+  @media (max-width: 768px) {
+    .card {
+      width: 90%;
+    }
+  
+    .mapContainer iframe {
+      height: 300px;
+    }
+  }
+  
